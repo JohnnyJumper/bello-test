@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["es2020"],
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "noImplicitReturns": true
+  },
+  "ts-node": {
+    "files": true,
+    "transpileOnly": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

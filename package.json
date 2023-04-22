@@ -1,0 +1,25 @@
+{
+  "name": "bello3",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "commonjs",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "2.6.9",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "start": "npx ts-node --transpile-only src/index.ts ",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.13",
+    "@types/node-fetch": "^2.6.3",
+    "tslib": "^2.5.0"
+  }
+}
