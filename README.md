@@ -6,8 +6,6 @@ This repository contains a simple API built with Node.js and Express. The API pr
 
 - [Getting Started](#getting-started)
 - [Endpoints](#endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
