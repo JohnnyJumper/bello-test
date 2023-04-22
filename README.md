@@ -36,4 +36,4 @@ The API provides the following endpoints:
 
 - GET /nft/:address - Returns all the NFTs owned by the specified Ethereum address.
 - GET /nft/collection/:address - Returns all the NFTs owned by all the addresses that own NFTs from the specified collection.
-- GET /nft/collection/:address/common - Returns a count of how many times each NFT contract address appears in the collections of the addresses that own NFTs from the specified collection.
+- GET /nft/collection/:address/common - Returns top 3 nft contracts that are common among all owners of specific collection
