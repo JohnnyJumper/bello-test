@@ -9,11 +9,11 @@ dotenv.config();
 const app = express();
 const { PORT, API_KEY } = process.env;
 
-initializeNodeConnection(API_KEY);
-
 if (!PORT || !API_KEY) {
   throw new Error("Enviroment variables are not set correctly");
 }
+
+initializeNodeConnection(API_KEY);
 
 app.use("/age", ageRouter);
 app.use("/nft", nftRouter);
